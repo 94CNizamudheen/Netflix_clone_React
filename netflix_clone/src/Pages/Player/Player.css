@@ -1,0 +1,35 @@
+.player {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .back-arrow {
+    cursor: pointer;
+    width: 40px; /* Adjust as needed */
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+  }
+  
+  iframe {
+    aspect-ratio: 16/9;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .player-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .player-info p {
+    margin: 5px 0;
+  }
