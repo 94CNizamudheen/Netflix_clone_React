@@ -16,7 +16,7 @@ const Player = () => {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0N2Q1MzE1NTExNGJiMjJjNjEyY2EyNTU1NzMwZDg5NCIsIm5iZiI6MTc0MTg1NTA1MC4zODksInN1YiI6IjY3ZDI5OTRhZDRmNzQxMzczMjYwZDAxNiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5d5Pw_SyknP4XvDKRrQKhCwYYP_2Z7OulLMtdSy-amQ'
+      Authorization: `Bearer ${import.meta.env.VITE_AUTH_TOKEN}`
     }
   };
   useEffect(()=>{
