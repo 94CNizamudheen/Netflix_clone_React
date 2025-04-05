@@ -25,7 +25,7 @@ const TitleCards = ({ title,category }) => {
     
     fetch(url, options)
     .then(res => res.json())
-    .then(res => {setApiData(res.results);console.log(res.results); }) 
+    .then(res => {setApiData(res.results); }) 
     
     .catch(err => console.error(err));
     cardsRef.current.addEventListener("wheel", handlewheel)
